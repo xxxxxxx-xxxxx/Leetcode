@@ -9,7 +9,7 @@ class Solution:
         return []
 
 
-## A better solution with a faster runtime
+# A better solution with a faster runtime
 
 from typing import List
 
