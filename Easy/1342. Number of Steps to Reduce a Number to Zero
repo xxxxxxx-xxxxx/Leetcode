@@ -1,0 +1,13 @@
+class Solution:
+
+# a is the number you want to make into 0
+
+    def numberOfSteps(self, num: int) -> int:
+        a = 0
+        while num > 0:          
+            if num % 2 == 0:      # Use the even
+                num //= 2
+            else:
+                num -= 1          # Use the odd
+            a += 1    
+        return a
